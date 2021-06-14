@@ -1,0 +1,42 @@
+Sat Apr 10 2021 - Error: Not Found
+    at C:\Users\ASHWANTH\Desktop\ArtIn\Backend\src\service\service.js:280:23
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Sat Apr 10 2021 - Error: Not Found
+    at C:\Users\ASHWANTH\Desktop\ArtIn\Backend\src\service\service.js:280:23
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Sat Apr 10 2021 - Error: Not Found
+    at C:\Users\ASHWANTH\Desktop\ArtIn\Backend\src\service\service.js:280:23
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Tue Jun 01 2021 - Error: Could not connect to database
+    at C:\Users\ASHWANTH\Desktop\ArtIn\Backend\src\utilities\connection.js:200:21
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Tue Jun 01 2021 - ValidationError: User validation failed: DOB: Cast to Date failed for value "23/2/1998" at path "DOB"
+    at new ValidationError (C:\Users\ASHWANTH\Desktop\ArtIn\Backend\node_modules\mongoose\lib\error\validation.js:30:11)
+    at model.Document.invalidate (C:\Users\ASHWANTH\Desktop\ArtIn\Backend\node_modules\mongoose\lib\document.js:2112:32)
+    at model.$set (C:\Users\ASHWANTH\Desktop\ArtIn\Backend\node_modules\mongoose\lib\document.js:1056:10)
+    at model._handleIndex (C:\Users\ASHWANTH\Desktop\ArtIn\Backend\node_modules\mongoose\lib\document.js:806:14)
+    at model.$set (C:\Users\ASHWANTH\Desktop\ArtIn\Backend\node_modules\mongoose\lib\document.js:756:22)
+    at model.Document (C:\Users\ASHWANTH\Desktop\ArtIn\Backend\node_modules\mongoose\lib\document.js:119:12)
+    at model.Model (C:\Users\ASHWANTH\Desktop\ArtIn\Backend\node_modules\mongoose\lib\model.js:93:12)
+    at new model (C:\Users\ASHWANTH\Desktop\ArtIn\Backend\node_modules\mongoose\lib\model.js:4432:13)
+    at C:\Users\ASHWANTH\Desktop\ArtIn\Backend\node_modules\mongoose\lib\model.js:2840:22
+    at C:\Users\ASHWANTH\Desktop\ArtIn\Backend\node_modules\async\internal\parallel.js:31:39
+    at eachOfArrayLike (C:\Users\ASHWANTH\Desktop\ArtIn\Backend\node_modules\async\eachOf.js:65:9)
+    at exports.default (C:\Users\ASHWANTH\Desktop\ArtIn\Backend\node_modules\async\eachOf.js:9:5)
+    at _parallel (C:\Users\ASHWANTH\Desktop\ArtIn\Backend\node_modules\async\internal\parallel.js:30:5)
+    at parallelLimit (C:\Users\ASHWANTH\Desktop\ArtIn\Backend\node_modules\async\parallel.js:88:26)
+    at C:\Users\ASHWANTH\Desktop\ArtIn\Backend\node_modules\mongoose\lib\model.js:2850:5
+    at C:\Users\ASHWANTH\Desktop\ArtIn\Backend\node_modules\mongoose\lib\utils.js:270:5
+Tue Jun 01 2021 - SyntaxError: Unexpected token / in JSON at position 177
+    at JSON.parse (<anonymous>)
+    at parse (C:\Users\ASHWANTH\Desktop\ArtIn\Backend\node_modules\body-parser\lib\types\json.js:89:19)
+    at C:\Users\ASHWANTH\Desktop\ArtIn\Backend\node_modules\body-parser\lib\read.js:121:18
+    at invokeCallback (C:\Users\ASHWANTH\Desktop\ArtIn\Backend\node_modules\raw-body\index.js:224:16)
+    at done (C:\Users\ASHWANTH\Desktop\ArtIn\Backend\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (C:\Users\ASHWANTH\Desktop\ArtIn\Backend\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (events.js:323:22)
+    at endReadableNT (_stream_readable.js:1204:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
